@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Reservas</h1>
+        <form action ='/Reservas/reserva' method='POST'>
+            <label>Código Hotel:</label>
+            <select name='codeHotel'>
+                <option value='1'>hotel1</option>
+                <option value='2'>hotel2</option>
+                <option value='3'>hotel3</option>
+                <option value='4'>hotel4</option>
+                <option value='5'>hotel5</option>
+                <option value='6'>hotel6</option>
+            </select>
+            </br>
+            <label>Noches</label>
+            <input type='number' name='nights'/>
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
